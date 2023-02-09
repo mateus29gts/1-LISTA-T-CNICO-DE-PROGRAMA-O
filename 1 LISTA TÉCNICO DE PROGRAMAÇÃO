@@ -1,0 +1,80 @@
+Exercicio 1:
+R=float(input("informe o valor em real "))#variavel que aparece na tela do usuario
+con= 3.12#valor do dolar
+D=R/con#variavel D responsavel pelo calculo que é dividir o valor do usuario por 3.12
+print(" O valor em dolar é", D)#printar
+Exercicio 2:
+D=float(input("informe o valor em dolar "))
+con= 3.12
+R= D*con#variavel R responsavel pelo calculo que é mutiplicar o valor do usuario por 3.12
+print(" O valor em real é", R)
+Exercicio 3: 
+A=int(input("informe a largura de sua parede:"))
+	B=int(input("informe a altura de sua parede:"))
+	C=int(input("informe a largura dos azulejos:"))
+	D=int(input("infotme a altura dos azulejos:"))
+	resultado = C*D#na duas contas eu faço o calculo de area pra saber o valor exato dos tijolos
+	result = B*A
+	definitivo = result/resultado
+	print("a quantidade correta de azulejos a serem colocados na parede será de:%.2f"% definitivo
+Exercicio 4:
+A=int(input("informe a largura de seu retângulo:"))
+2	B=int(input("informe a altura de sua retângulo:"))
+3	resultado = A**2+B**2#perimetro
+4	result = B*A#area
+5	definitivo = resultado
+6	area = result
+7	print("O perimetro de seu retangulo será de:%.2f"% definitivo)
+8	print("A area de seu retangulo será de:%.2f"% result)
+Exercicio 5:
+A=float(input("Digite o seu peso para o calculo de IMC:"))
+B=float(input("Digite a sua altura para o calculo de IMC:"))
+result = A/B**2
+print("O seu indice de Massa Corporal:%.2f"% resultado)
+Exercicio 6:
+raio=float(input("Qual é o raio da esfera? "))
+raiz=3.14
+vol= (4/3)*raiz*(raio**3)
+ar=4*raiz*(raio**2)
+print("O volume da esfera é ", vol, "A area da esfera é ", ar)
+Exercicio 7:^
+A=float(input("Digite o valor da sua prova 1 para o calculo:"))
+	B=float(input("Digite o valor da sua prova 2 para o calculo:"))
+	C=float(input("Digite o valor da sua nota atribuida para o calculo:"))
+	result = 4*A+3*B+2*C	
+    DEFINITIVO = result/9
+	print("Média:%.2f"% DEFINITIVO 
+Exercicio 8:
+T=float(input("Digite o valor da seu tempo:"))
+	s0= 2
+	v0 = 3
+	A = 10
+	result = s0+v0*T+0.5*A*T**2
+	#print("seu valor é :%.2f"% result)
+	print('O valor é de {}'.format(result))
+Exercicio 9:
+preco_maca=1.30#preço por unidade
+preco_banana=5#preço por kilo
+m=float(input("Qual é a quantidade de maças? "))
+b=float(input("Qual a quantidade em kilo da bananas? "))
+total_compras= (m*preco_maca)+(b*preco_banana)
+print("o custo total das compras é ", total_compras)
+Exercicio 10:
+id_anos=float(input("digite respectivamente sua idade em anos,messes e dias: "))
+id_meses=float(input(" "))
+id_dias=float(input(" "))
+total=(id_anos*365)+(id_meses*30)+id_dias
+print("Sua idade em dias é ",total)
+Exercicio 11:
+custo_de_fabrica=float(input("Digite o valor de custo do carro de fabrica "))
+distri=custo_de_fabrica*0.28
+impost=custo_de_fabrica*0.45
+custo_final=custo_de_fabrica+distri+impost
+print("O custo total do carro é ",custo_final)
+Exercicio 12:
+carros_vendidos=float(input("Qual o numero de carros vendidos pela funcionaria? "))#
+valor_vendas=float(input("Qual o valor total de vendas da  funcionaria? "))
+salario_fixo=float(input("Qual o salario fixo da funcionaria? "))
+comissão=float(input("Qual o valor da comissão recebida pela funcionaria? "))
+salario_final=salario_fixo+(comissão*carros_vendidos)+((5*valor_vendas)/100)
+print("O salario final da funcionaria é ",salario_final)
